@@ -89,40 +89,51 @@
 		<table class="table borderless" id="tableInput">
 			<tr>
 				<td class="label-right">Peripheral No.</td>
-				<td><input type="text" id="ptxtPeripheralNo"
-					class="form-control" readonly="readonly"></td>
+				<td><input type="text" id="ptxtPeripheralNo" class="form-control" readonly="readonly"></td>
+				<td></td>
 				<td class="label-right">Serial No.</td>
 				<td><input type="text" id="ptxtSerialNo" class="form-control" maxlength="6"></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td class="label-right">Peripheral Type</td>
 				<td><input type="text" id="ptxtPeripheralType" class="required form-control" maxlength="100"></td>
+				<td></td>
 				<td class="label-right">Brand</td>
 				<td><input type="text" id="ptxtBrand" class="form-control" maxlength="200"></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td class="label-right">Tag Number</td>
 				<td><input type="text" id="ptxtTagNumber" class="form-control" maxlength="100"></td>
+				<td></td>
 				<td class="label-right">Model</td>
 				<td><input type="text" id="ptxtModel" class="form-control" maxlength="200"></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td class="label-right">Acquired Date</td>
 				<td><input type="text" id="pdtAcquiredDate" class="form-control" placeholder="MM/DD/YYYY"></td>
+				<td></td>
 				<td class="label-right">Color</td>
 				<td><input type="text" id="ptxtColor" class="form-control" maxlength="100"></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td class="label-right">Description</td>
 				<td><input type="text" id="ptxtDescription" class="form-control" maxlength="1000"></td>
+				<td></td>
 				<td class="label-right">User ID</td>
 				<td><input type="text" id="ptxtUserId" class="form-control" disabled="disabled"></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td class="label-right">Remarks</td>
 				<td><input type="text" id="ptxtRemarks" class="form-control" maxlength="1000"></td>
+				<td></td>
 				<td class="label-right">Last Update</td>
 				<td><input type="text" id="pdtLastUpdate" class="date form-control" placeholder="MM/DD/YYYY" disabled="disabled"></td>
+				<td></td>
 			</tr>
 			</tbody>
 		</table>

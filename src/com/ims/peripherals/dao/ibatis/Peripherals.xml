@@ -2,7 +2,7 @@
 <!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" 
 "http://ibatis.apache.org/dtd/sqlmap-2.dtd">
 <sqlMap namespace="Peripherals">
-	<typeAlias alias="PeripheralClass" type="com.ims.model.peripherals.Peripherals" />
+	<typeAlias alias="PeripheralClass" type="com.ims.peripherals.model.Peripherals" />
 
 	<resultMap id="getPeripheralsMap" class="PeripheralClass">
 		<result column="unit_no" property="unitNo" />
@@ -130,7 +130,7 @@
 	</delete>
 
 	<typeAlias alias="ComputerAssigneeDataClass"
-		type="com.ims.model.peripherals.ComputerAssigneeData" />
+		type="com.ims.peripherals.model.ComputerAssigneeData" />
 
 	<resultMap id="getComputerAssigneeDataMap" class="ComputerAssigneeDataClass">
 		<result column="unit_no" property="unitNo" />

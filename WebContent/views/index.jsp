@@ -23,5 +23,6 @@
 			
 		</div>
 	</div>
+	<button id="btnPeripherals" onclick="loadPeripherals()">Peripherals</button>
 </body>
 </html>
